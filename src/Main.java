@@ -52,7 +52,7 @@ public class Main {
         int equalHashCount = 0;
 
         for (String distinctWord : distinctWords) {
-            if (distinctWord.charAt(0) == 'C' || distinctWord.charAt(0) == 'c') {
+            if (distinctWord.charAt(0) == 'C') {
                 cLetterCounter += 1;
             }
         }
@@ -83,7 +83,7 @@ public class Main {
 
         System.out.println("Longest word: " + longestWord); //interestinglooking
         System.out.println("Harry Counter: " + harryCounter); //1084
-        System.out.println("c Letter Counter: " + cLetterCounter); //463
+        System.out.println("С Letter Counter: " + cLetterCounter); //463
         System.out.println("Equal Hash Count Of Distinct Words: " + equalHashCountDistinct); //0
         System.out.println("Equal Hash Count Of All Words: " + equalHashCount); //71424
     }
